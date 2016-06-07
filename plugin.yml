@@ -9,7 +9,7 @@ website: http://www.evolsoft.tk
 
 commands:
  serverchannels:
-   aliases: [serverch, sch]
+   aliases: [serverch, sch, ch]
    description: ServerChannels commands.
    permission: serverchannels
    
@@ -19,7 +19,7 @@ permissions:
   description: ServerChannels permissions.
   children:
    serverchannels.channels:
-    default: op
+    default: true
     description: ServerChannels channels permissions.
    serverchannels.commands:
     default: true
@@ -29,20 +29,20 @@ permissions:
        default: true
        description: ServerChannels command Help permission.
       serverchannels.commands.info:
-       default: op
+       default: true
        description: ServerChannels command Info permission.
       serverchannels.commands.reload:
-       default: op
+       default: true
        description: ServerChannels command Reload permission.
       serverchannels.commands.list:
-       default: op
+       default: true
        description: ServerChannels command List permission.
       serverchannels.commands.join:
-       default: op
+       default: true
        description: ServerChannels command Join permission.
       serverchannels.commands.leave:
-       default: op
+       default: true
        description: ServerChannels command Leave permission.
       serverchannels.commands.new:
-       default: op
+       default: true
        description: ServerChannels command New permission.
